@@ -1,0 +1,56 @@
+  
+* {
+  font-style: sans-serif;
+  max-width: 100%;
+  background-color: white;
+}
+
+header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-style: sans-serif;;
+    text-align: left;
+  }
+
+
+#scoreDisplay:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#scoreDisplay {
+  float: left;
+  color: rgb(100, 0, 139);
+}
+
+#timerDisplay {
+  color: rgb(100, 0, 139);
+  float: right;
+  }
+
+#timerDisplay:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+button {
+    background-color: rgb(100, 0, 139);
+    color: white;
+    width: auto;
+    border-radius: 15px;
+    height: 50px;
+    font-size: larger;
+}
+
